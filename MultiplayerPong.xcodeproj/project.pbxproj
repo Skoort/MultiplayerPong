@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7C5A735D2854CA2000082C50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A735C2854CA2000082C50 /* main.cpp */; };
+		7C5A73752854D40C00082C50 /* libsfml-graphics.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A736F2854CEF600082C50 /* libsfml-graphics.dylib */; };
+		7C5A73762854D41600082C50 /* libsfml-window.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A73712854CF0100082C50 /* libsfml-window.dylib */; };
+		7C5A73772854D42000082C50 /* libsfml-system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A73732854CF0A00082C50 /* libsfml-system.dylib */; };
+		7C5A73792854D42800082C50 /* libsfml-network.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A73782854D42800082C50 /* libsfml-network.dylib */; };
+		7C5A737B2854D43100082C50 /* libsfml-audio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A737A2854D43100082C50 /* libsfml-audio.dylib */; };
+		7C5A737E2854D46700082C50 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A737C2854D46700082C50 /* Client.cpp */; };
+		7C5A73802854D80B00082C50 /* GameRules.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A737F2854D80B00082C50 /* GameRules.hpp */; };
+		7C5A73832854F40000082C50 /* ClientServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A73812854F40000082C50 /* ClientServer.cpp */; };
+		7C5A738F2855CDA000082C50 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A738D2855CDA000082C50 /* GameObject.cpp */; };
+		7C81A6542858C119002CA0C5 /* GameRules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C81A6532858C119002CA0C5 /* GameRules.cpp */; };
+		7C9C96F62860572D00148F6B /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C96F42860572D00148F6B /* Game.cpp */; };
+		7CC762A62863467800F90DC4 /* ConnectionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CC762A42863467800F90DC4 /* ConnectionManager.cpp */; };
+		7CC762A92863468400F90DC4 /* Connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CC762A72863468400F90DC4 /* Connection.cpp */; };
+		7CC9EECF285B435100299485 /* InboundPacketReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9EECD285B435100299485 /* InboundPacketReader.cpp */; };
+		7CC9EED8285B632600299485 /* OutboundPacketWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9EED6285B632600299485 /* OutboundPacketWriter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +40,37 @@
 /* Begin PBXFileReference section */
 		7C5A73592854CA2000082C50 /* MultiplayerPong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultiplayerPong; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5A735C2854CA2000082C50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7C5A73642854CD9D00082C50 /* Personal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Personal; path = ..; sourceTree = "<group>"; };
+		7C5A73652854CDB900082C50 /* libsfml-graphics.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.3.0.0.dylib"; path = "../../Libraries/SFML/build/lib/libsfml-graphics.3.0.0.dylib"; sourceTree = "<group>"; };
+		7C5A73692854CDC800082C50 /* libsfml-window.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.3.0.0.dylib"; path = "../../Libraries/SFML/build/lib/libsfml-window.3.0.0.dylib"; sourceTree = "<group>"; };
+		7C5A736C2854CDD400082C50 /* libsfml-system.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.3.0.0.dylib"; path = "../../Libraries/SFML/build/lib/libsfml-system.3.0.0.dylib"; sourceTree = "<group>"; };
+		7C5A736F2854CEF600082C50 /* libsfml-graphics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-graphics.dylib"; sourceTree = "<group>"; };
+		7C5A73712854CF0100082C50 /* libsfml-window.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-window.dylib"; sourceTree = "<group>"; };
+		7C5A73732854CF0A00082C50 /* libsfml-system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-system.dylib"; sourceTree = "<group>"; };
+		7C5A73782854D42800082C50 /* libsfml-network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-network.dylib"; sourceTree = "<group>"; };
+		7C5A737A2854D43100082C50 /* libsfml-audio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-audio.dylib"; sourceTree = "<group>"; };
+		7C5A737C2854D46700082C50 /* Client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		7C5A737D2854D46700082C50 /* Client.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Client.hpp; sourceTree = "<group>"; };
+		7C5A737F2854D80B00082C50 /* GameRules.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameRules.hpp; sourceTree = "<group>"; };
+		7C5A73812854F40000082C50 /* ClientServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClientServer.cpp; sourceTree = "<group>"; };
+		7C5A73822854F40000082C50 /* ClientServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClientServer.hpp; sourceTree = "<group>"; };
+		7C5A738D2855CDA000082C50 /* GameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		7C5A738E2855CDA000082C50 /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
+		7C5A73912856167500082C50 /* GameObject.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = GameObject.inl; sourceTree = "<group>"; };
+		7C81A6532858C119002CA0C5 /* GameRules.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameRules.cpp; sourceTree = "<group>"; };
+		7C9C96F42860572D00148F6B /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		7C9C96F52860572D00148F6B /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		7CAAD4BC285C67AA00E190E9 /* GameState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameState.hpp; sourceTree = "<group>"; };
+		7CC762A42863467800F90DC4 /* ConnectionManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectionManager.cpp; sourceTree = "<group>"; };
+		7CC762A52863467800F90DC4 /* ConnectionManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConnectionManager.hpp; sourceTree = "<group>"; };
+		7CC762A72863468400F90DC4 /* Connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Connection.cpp; sourceTree = "<group>"; };
+		7CC762A82863468400F90DC4 /* Connection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Connection.hpp; sourceTree = "<group>"; };
+		7CC9EECD285B435100299485 /* InboundPacketReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InboundPacketReader.cpp; sourceTree = "<group>"; };
+		7CC9EECE285B435100299485 /* InboundPacketReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InboundPacketReader.hpp; sourceTree = "<group>"; };
+		7CC9EED1285B47FB00299485 /* NetworkAddress.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NetworkAddress.hpp; sourceTree = "<group>"; };
+		7CC9EED4285B4A4200299485 /* PacketInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PacketInfo.hpp; sourceTree = "<group>"; };
+		7CC9EED6285B632600299485 /* OutboundPacketWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OutboundPacketWriter.cpp; sourceTree = "<group>"; };
+		7CC9EED7285B632600299485 /* OutboundPacketWriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OutboundPacketWriter.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5A737B2854D43100082C50 /* libsfml-audio.dylib in Frameworks */,
+				7C5A73792854D42800082C50 /* libsfml-network.dylib in Frameworks */,
+				7C5A73772854D42000082C50 /* libsfml-system.dylib in Frameworks */,
+				7C5A73762854D41600082C50 /* libsfml-window.dylib in Frameworks */,
+				7C5A73752854D40C00082C50 /* libsfml-graphics.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +94,7 @@
 			children = (
 				7C5A735B2854CA2000082C50 /* MultiplayerPong */,
 				7C5A735A2854CA2000082C50 /* Products */,
+				7C5A73632854CD9D00082C50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +109,55 @@
 		7C5A735B2854CA2000082C50 /* MultiplayerPong */ = {
 			isa = PBXGroup;
 			children = (
+				7CC762A32863464F00F90DC4 /* NewNetworkingTest */,
 				7C5A735C2854CA2000082C50 /* main.cpp */,
+				7C9C96F52860572D00148F6B /* Game.hpp */,
+				7C9C96F42860572D00148F6B /* Game.cpp */,
+				7CAAD4BC285C67AA00E190E9 /* GameState.hpp */,
+				7C5A73822854F40000082C50 /* ClientServer.hpp */,
+				7C5A73812854F40000082C50 /* ClientServer.cpp */,
+				7C5A737D2854D46700082C50 /* Client.hpp */,
+				7C5A737C2854D46700082C50 /* Client.cpp */,
+				7C5A737F2854D80B00082C50 /* GameRules.hpp */,
+				7C81A6532858C119002CA0C5 /* GameRules.cpp */,
+				7C5A738E2855CDA000082C50 /* GameObject.hpp */,
+				7C5A73912856167500082C50 /* GameObject.inl */,
+				7C5A738D2855CDA000082C50 /* GameObject.cpp */,
+				7CC9EECE285B435100299485 /* InboundPacketReader.hpp */,
+				7CC9EECD285B435100299485 /* InboundPacketReader.cpp */,
+				7CC9EED7285B632600299485 /* OutboundPacketWriter.hpp */,
+				7CC9EED6285B632600299485 /* OutboundPacketWriter.cpp */,
+				7CC9EED4285B4A4200299485 /* PacketInfo.hpp */,
+				7CC9EED1285B47FB00299485 /* NetworkAddress.hpp */,
 			);
 			path = MultiplayerPong;
+			sourceTree = "<group>";
+		};
+		7C5A73632854CD9D00082C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A737A2854D43100082C50 /* libsfml-audio.dylib */,
+				7C5A73782854D42800082C50 /* libsfml-network.dylib */,
+				7C5A73732854CF0A00082C50 /* libsfml-system.dylib */,
+				7C5A73712854CF0100082C50 /* libsfml-window.dylib */,
+				7C5A736F2854CEF600082C50 /* libsfml-graphics.dylib */,
+				7C5A736C2854CDD400082C50 /* libsfml-system.3.0.0.dylib */,
+				7C5A73692854CDC800082C50 /* libsfml-window.3.0.0.dylib */,
+				7C5A73652854CDB900082C50 /* libsfml-graphics.3.0.0.dylib */,
+				7C5A73642854CD9D00082C50 /* Personal */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CC762A32863464F00F90DC4 /* NewNetworkingTest */ = {
+			isa = PBXGroup;
+			children = (
+				7CC762A42863467800F90DC4 /* ConnectionManager.cpp */,
+				7CC762A52863467800F90DC4 /* ConnectionManager.hpp */,
+				7CC762A72863468400F90DC4 /* Connection.cpp */,
+				7CC762A82863468400F90DC4 /* Connection.hpp */,
+			);
+			path = NewNetworkingTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9C96F62860572D00148F6B /* Game.cpp in Sources */,
+				7C5A737E2854D46700082C50 /* Client.cpp in Sources */,
 				7C5A735D2854CA2000082C50 /* main.cpp in Sources */,
+				7C5A73802854D80B00082C50 /* GameRules.hpp in Sources */,
+				7C5A73832854F40000082C50 /* ClientServer.cpp in Sources */,
+				7C5A738F2855CDA000082C50 /* GameObject.cpp in Sources */,
+				7C81A6542858C119002CA0C5 /* GameRules.cpp in Sources */,
+				7CC9EED8285B632600299485 /* OutboundPacketWriter.cpp in Sources */,
+				7CC9EECF285B435100299485 /* InboundPacketReader.cpp in Sources */,
+				7CC762A92863468400F90DC4 /* Connection.cpp in Sources */,
+				7CC762A62863467800F90DC4 /* ConnectionManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +346,15 @@
 		7C5A73612854CA2000082C50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/rmrvar/Source/Libraries/SFML/include;
+				LD_RUNPATH_SEARCH_PATHS = /Users/rmrvar/Source/Libraries/SFML/build/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/Users/rmrvar/Source/Libraries/SFML/build/lib,
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,7 +362,15 @@
 		7C5A73622854CA2000082C50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/rmrvar/Source/Libraries/SFML/include;
+				LD_RUNPATH_SEARCH_PATHS = /Users/rmrvar/Source/Libraries/SFML/build/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/Users/rmrvar/Source/Libraries/SFML/build/lib,
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

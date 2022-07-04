@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "efe9966a8cbd0e35ca723daa745b085c813763884fe6410182338dde675bd5fe"
+    }
+  ],
+  "containerPath" : "/Users/rmrvar/Source/Personal/MultiplayerPong/MultiplayerPong.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/rmrvar/Source/Personal/MultiplayerPong/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/rmrvar/Source/Personal/MultiplayerPong/Build/Products",
+      "derivedDataPath" : "/Users/rmrvar/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/rmrvar/Library/Developer/Xcode/DerivedData/MultiplayerPong-dujblnwqskbmeabbeiceyiinchah/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/rmrvar/Library/Developer/Xcode/DerivedData/MultiplayerPong-dujblnwqskbmeabbeiceyiinchah/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/rmrvar/Source/Personal/MultiplayerPong/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

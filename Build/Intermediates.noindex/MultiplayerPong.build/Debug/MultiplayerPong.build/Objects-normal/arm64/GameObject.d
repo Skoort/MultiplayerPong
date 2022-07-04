@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/rmrvar/Source/Personal/MultiplayerPong/MultiplayerPong/GameObject.cpp \
+  /Users/rmrvar/Source/Personal/MultiplayerPong/MultiplayerPong/GameObject.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/System/Vector2.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/System/Angle.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/System/Export.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Config.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/System/Angle.inl \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/System/Vector2.inl \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/RenderTarget.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Export.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Color.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Color.inl \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Rect.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Rect.inl \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/View.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Transform.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Transform.inl \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/BlendMode.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/RenderStates.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/PrimitiveType.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Vertex.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Vertex.inl \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/RectangleShape.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Shape.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Drawable.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/Transformable.hpp \
+  /Users/rmrvar/Source/Libraries/SFML/include/SFML/Graphics/VertexArray.hpp \
+  /Users/rmrvar/Source/Personal/MultiplayerPong/MultiplayerPong/GameObject.inl
